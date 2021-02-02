@@ -1,0 +1,67 @@
+-- 1. Seleccionar el número de pedidos atendidos por cada empleado, 
+-- sí y sólo si dicho número está entre 100 y 150.
+set schema 'northwind';
+select employee_id , count(order_id)
+from orders
+group by employee_id
+having count(order_id) between 100 and 150
+
+--2. Seleccionar el nombre de las empresas que no han realizado ningún pedido.
+
+set schema 'northwind';
+select ship_name, count(order_id)
+from orders 
+group by ship_name
+having count(order_id) = 0
+
+-- 3. Seleccionar la categoría que tiene más productos diferentes solicitados en pedidos. 
+-- Mostrar el nombre de la categoría y dicho número.
+
+set schema 'northwind';
+select product_name, count(product_id)
+from products
+group by product_name
+order by count(product_id) desc
+limit 1
+
+
+-- 4. Si suponemos que nuestro margen de beneficio con los productos es de un 25% (es decir, el 25% de su precio, 
+--son beneficios, y el 75% son costes), calcular la cantidad de beneficio que hemos obtenido, agrupado por categoría y producto. 
+--Las cantidades deben redondearse a dos decimales.
+set schema 'northwind';
+select category_name,product_name, sum(s.beneficios)
+from categories c join products p using (category_id) join ( select product_id,ROUND((quantity*(unit_price*0.25))::NUMERIC,2) AS "beneficios"
+ 														from order_details) s on s.product_id=p.product_id
+group by category_name,product_name
+order by category_name desc, product_name desc;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
