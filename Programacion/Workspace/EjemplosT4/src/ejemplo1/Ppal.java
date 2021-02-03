@@ -13,7 +13,7 @@ public class Ppal {
 		
 		System.out.println(t.CalcularPaga());
 		System.out.println(e.CalcularPaga());
-		
+		System.out.println(c.CalcularPaga());
 	}
 
 }
