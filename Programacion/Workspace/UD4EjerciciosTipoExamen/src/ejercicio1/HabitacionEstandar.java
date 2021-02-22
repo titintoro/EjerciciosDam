@@ -2,10 +2,10 @@ package ejercicio1;
 
 public class HabitacionEstandar {
 
-	protected double precioBase=100;
+	private double precioBase=100;
 	private boolean ocupada;
 	private String nombreCliente;
-	protected int diasOcupada;
+	private int diasOcupada;
 	private int numOcupantes;
 	
 	public double getPrecioBase() {

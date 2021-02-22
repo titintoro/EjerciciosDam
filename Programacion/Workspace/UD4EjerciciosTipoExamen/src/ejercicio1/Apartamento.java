@@ -14,7 +14,7 @@ public class Apartamento extends HabitacionEstandar {
 
 	public double calcularCantidadPagar (double cantidadPagar) {
 		
-		cantidadPagar=diasOcupada*precioBase+costeServicioLimpieza;
+		cantidadPagar=getDiasOcupada()*getPrecioBase()+costeServicioLimpieza;
 		return cantidadPagar;
 
 }

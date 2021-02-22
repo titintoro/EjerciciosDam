@@ -16,7 +16,7 @@ public class Suite extends HabitacionEstandar {
 	public double calcularCantidadPagar (double cantidadPagar ) {
 		
 		double den = 100;
-		cantidadPagar=diasOcupada*precioBase+dineroServicioHabitaciones;
+		cantidadPagar=getDiasOcupada()*getPrecioBase()+dineroServicioHabitaciones;
 		cantidadPagar=cantidadPagar-(cantidadPagar*descuento/den);
 		return cantidadPagar;
 		
