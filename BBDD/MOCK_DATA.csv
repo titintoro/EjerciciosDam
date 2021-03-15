@@ -1,0 +1,101 @@
+id_cliente,nombre,primer_apellido,segundo_apellido,direccion,ciudad,provincia,codigo_postal,pais,telefono,email
+1,MIGUEL ANGEL,BLANCO,ORTIZ,Paseo de Juan Antonio Vallejo-Nájera Botas,*******************,*******************,25735,España,109-870-0378,msilly0@mysql.com
+2,RAFAEL,ROMAN,ROMERO,Calle Anselmo Lorenzo,*******************,*******************,26841,España,530-472-9915,hgobel1@pen.io
+3,JAVIER,SOLER,FERRER,Calle San Germán,*******************,*******************,36642,España,912-990-6561,mswynley2@jugem.jp
+4,JOSEFA,SANZ,PRIETO,Calle Max Aub,*******************,*******************,44362,España,471-447-1194,ndrejer3@instagram.com
+5,JOSEFA,LORENZO,VEGA,Plaza del Rastrillo,*******************,*******************,31021,España,716-668-5380,agrayham4@lulu.com
+6,FRANCISCO,MEDINA,FERNANDEZ,Plaza José Moreno Villa,*******************,*******************,17060,España,337-438-7235,gkeogh5@epa.gov
+7,PEDRO,SANTANA,FERRER,Calle Aviador Zorita,*******************,*******************,21421,España,605-219-0434,dlenormand6@senate.gov
+8,FRANCISCO JAVIER,CRUZ,SANTOS,Calle y Escalinata Matilde Landa,*******************,*******************,31576,España,465-604-5139,kpopley7@mozilla.com
+9,FRANCISCO JAVIER,CABRERA,LEON,Calle San Germán,*******************,*******************,15903,España,535-421-2168,ocaveau8@jigsy.com
+10,MARIA JOSE,MORA,SOTO,Calle Filósofa Simone Weil,*******************,*******************,4869,España,930-415-1975,medlestone9@gov.uk
+11,RAQUEL,CASTILLO,GALLEGO,Calle de Diego Torres Villarroel,*******************,*******************,40199,España,842-485-2987,rfarfulla@reference.com
+12,ISABEL,CABRERA,ESTEBAN,Calle y Escalinata Matilde Landa,*******************,*******************,23729,España,440-149-0545,kridulfob@slashdot.org
+13,ISABEL,DIAZ,ROMAN,Calle del Barco Sinaia,*******************,*******************,16762,España,122-814-9070,kpowderhamc@posterous.com
+14,CARLOS,ORTEGA,MORALES,Avenida Ingeniero Emilio Herrera,*******************,*******************,5718,España,433-756-0065,rwhitmelld@shinystat.com
+15,JOSE MANUEL,RAMIREZ,MEDINA,Plaza del Baile,*******************,*******************,48735,España,331-733-8674,swimpeye@ucoz.com
+16,ELENA,CRESPO,RODRIGUEZ,Calle de Fortunata y Jacinta,*******************,*******************,31387,España,694-372-8262,egaenorf@wordpress.org
+17,DOLORES,FLORES,GARCIA,Calle Blas Cabrera,*******************,*******************,8783,España,942-926-9377,hteacyg@usatoday.com
+18,MARTA,ORTIZ,LEON,Calle San Germán,*******************,*******************,44068,España,514-977-9100,tyegorkinh@redcross.org
+19,DAVID,"",ROMERO,Plaza Corpus Barga,*******************,*******************,18372,España,313-929-3023,bpllui@ocn.ne.jp
+20,MARIA DOLORES,ROJAS,VIDAL,Calle Julián Besteiro,*******************,*******************,49203,España,266-800-6286,sgatesj@stanford.edu
+21,MARIA DOLORES,ALONSO,RUBIO,Calle y Travesía Poeta Blas de Otero,*******************,*******************,37991,España,582-935-8326,fmontillak@scribd.com
+22,JOSE MARIA,ALVAREZ,VARGAS,Plaza de la Charca Verde,*******************,*******************,40004,España,706-391-7593,ssollyl@dmoz.org
+23,CARMEN,REYES,HERRERO,Calle del Maestro Ángel Llorca,*******************,*******************,38217,España,504-910-3230,ddrooganm@dailymotion.com
+24,JOSE MARIA,LOPEZ,CABALLERO,Paseo de la Maestra María Sánchez Arbós,*******************,*******************,47761,España,336-962-9976,spflegern@vimeo.com
+25,JUAN,LOZANO,ESTEBAN,Plaza de la Charca Verde,*******************,*******************,14149,España,583-502-3109,cellingtono@quantcast.com
+26,ALEJANDRO,RAMOS,DELGADO,Paseo de Juan Antonio Vallejo-Nájera Botas,*******************,*******************,49536,España,236-796-2081,feisikowitchp@skype.com
+27,MARIA JOSE,GUERRERO,GIMENEZ,Calle José Rizal,*******************,*******************,16949,España,128-833-2927,aduckettq@seesaa.net
+28,LAURA,VIDAL,SOTO,Plaza Mayor de Barajas,*******************,*******************,34365,España,715-959-5975,delgeer@irs.gov
+29,CARLOS,DOMINGUEZ,PRIETO,Calle de Rober Capa,*******************,*******************,14976,España,414-561-4385,abueys@earthlink.net
+30,MIGUEL,GUTIERREZ,HERRERO,Calle Manuel Chaves Nogales,*******************,*******************,4738,España,200-121-8555,gledramt@ow.ly
+31,FRANCISCA,NIETO,RUBIO,Glorieta de Ramón Gaya,*******************,*******************,44303,España,570-109-9866,tbemandu@google.es
+32,MARIA ANGELES,MARQUEZ,GOMEZ,Calle Guillermo Rovirosa,*******************,*******************,49796,España,279-342-2180,dmacardlev@shinystat.com
+33,JESUS,JIMENEZ,VELASCO,Paseo de la Maestra María Sánchez Arbós,*******************,*******************,44512,España,931-699-6557,ddobingw@webeden.co.uk
+34,MARIA DOLORES,MARTINEZ,TORRES,Calle Maestra Justa Freire,*******************,*******************,18386,España,899-691-7830,ozanardiix@google.com.hk
+35,SARA,HERRERA,PARRA,Calle Carlota O'Neill,*******************,*******************,48063,España,259-147-3576,lobispoy@csmonitor.com
+36,PAULA,IGLESIAS,HIDALGO,Calle Julián Zugazagoitia,*******************,*******************,39586,España,301-516-0861,abrantonz@alibaba.com
+37,ALEJANDRO,MARIN,SUAREZ,Calle Soledad Cazorla,*******************,*******************,42746,España,384-460-2333,ckellitt10@earthlink.net
+38,FRANCISCA,ROMERO,CASTRO,Plaza del Rastrillo,*******************,*******************,7305,España,936-675-0233,gzorer11@domainmarket.com
+39,ANA,SOTO,MARIN,Calle Carlos Morla Lynch,*******************,*******************,10481,España,899-990-6458,jbuckles12@mac.com
+40,MARIA DOLORES,REYES,MORA,Calle de Rober Capa,*******************,*******************,30733,España,273-537-1422,gkentwell13@ca.gov
+41,ALEJANDRO,RAMOS,DOMINGUEZ,Calle de Rober Capa,*******************,*******************,22844,España,376-854-1506,wvanbaaren14@si.edu
+42,RAFAEL,NIETO,PARRA,Calle Soledad Cazorla,*******************,*******************,18473,España,281-197-6259,kstachini15@abc.net.au
+43,ANA,DIAZ,SAEZ,Calle Blas Cabrera,*******************,*******************,12107,España,972-155-2886,cbound16@ning.com
+44,MIGUEL ANGEL,CABALLERO,PRIETO,Calle Soledad Cazorla,*******************,*******************,46271,España,668-156-1257,ggrunwald17@dion.ne.jp
+45,MARIA JOSE,PASCUAL,ARIAS,Calle Memorial 11 de marzo de 2004,*******************,*******************,29849,España,118-191-5878,mmazzia18@squarespace.com
+46,MARIA ISABEL,SANTIAGO,DOMINGUEZ,Paseo de Marcelino Camacho,*******************,*******************,30134,España,261-318-5647,nmcpake19@jimdo.com
+47,JUAN,SANZ,DELGADO,Calle del Barco Sinaia,*******************,*******************,5872,España,779-450-6545,cpentecust1a@wisc.edu
+48,ANGEL,MUÑOZ,VAZQUEZ,Plaza Mayor de Barajas,*******************,*******************,15350,España,937-278-7195,pbruinemann1b@walmart.com
+49,LUCIA,SANZ,CABRERA,Paseo de Juan Antonio Vallejo-Nájera Botas,*******************,*******************,46192,España,602-124-0458,rathowe1c@cnn.com
+50,CARLOS,CANO,SOTO,Calle de Gerda Taro,*******************,*******************,44815,España,645-586-7892,schristofle1d@smh.com.au
+51,"",RAMOS,MARTIN,Plaza de José Castillejo,*******************,*******************,8814,España,697-490-9685,iginnane1e@zdnet.com
+52,ANA,MARIN,CABALLERO,Plaza del Baile,*******************,*******************,6044,España,464-293-3383,slorent1f@icio.us
+53,RAFAEL,DIEZ,RODRIGUEZ,Avenida de la Memoria,*******************,*******************,49725,España,790-996-8611,jpickrell1g@thetimes.co.uk
+54,PAULA,ALVAREZ,DIEZ,Calle de la Poeta Ángela Figuera,*******************,*******************,33067,España,791-698-1308,abratty1h@admin.ch
+55,LAURA,PASCUAL,SOLER,Calle Memorial 11 de marzo de 2004,*******************,*******************,49564,España,943-704-3934,gabrashkov1i@networksolutions.com
+56,MARIA JOSE,RUBIO,SUAREZ,Calle Mercedes Fórmica,*******************,*******************,21964,España,800-549-6838,gsaull1j@netscape.com
+57,SERGIO,ESTEBAN,LEON,Calle Melquíades Álvarez,*******************,*******************,4874,España,761-925-6053,asawkins1k@blinklist.com
+58,ANTONIO,RODRIGUEZ,RUBIO,Paseo de la Maestra María Sánchez Arbós,*******************,*******************,12570,España,438-483-2528,hchrippes1l@webnode.com
+59,JOSEFA,ALVAREZ,PEREZ,Calle Carlos Morla Lynch,*******************,*******************,15629,España,948-883-6042,sbeattie1m@51.la
+60,JUAN,PEÑA,CABALLERO,Calle Carlota O'Neill,*******************,*******************,28487,España,718-622-5580,pblaber1n@theguardian.com
+61,PABLO,HERRERA,VICENTE,Plaza Mayor de Barajas,*******************,*******************,8141,España,637-457-2425,aboteman1o@seattletimes.com
+62,MIGUEL,HERRERO,GARCIA,Avenida de la Memoria,*******************,*******************,24551,España,999-845-3818,lbandiera1p@elpais.com
+63,JESUS,CABRERA,GIL,Plaza del Rastrillo,*******************,*******************,12010,España,132-343-2177,mreedie1q@ycombinator.com
+64,PAULA,AGUILAR,LOZANO,Calle Edgar Neville,*******************,*******************,10549,España,239-260-4619,dfish1r@livejournal.com
+65,PAULA,VICENTE,LEON,Calle de la Institución Libre de Enseñanza,*******************,*******************,39069,España,271-838-8722,dgwyn1s@addthis.com
+66,PEDRO,CABALLERO,SANZ,Pasaje de Enrique Ruano,*******************,*******************,21881,España,697-131-9390,kfilippozzi1t@prlog.org
+67,CARLOS,PEREZ,DIEZ,Calle Arquitecto Sánchez Arcas,*******************,*******************,6034,España,394-684-2351,pchedzoy1u@dyndns.org
+68,ANTONIA,VARGAS,RODRIGUEZ,Calle del Poeta Joan Maragall,*******************,*******************,21651,España,815-205-8199,wgreguoli1v@google.ca
+69,MARIA TERESA,"",CARRASCO,Pasaje de Enrique Ruano,*******************,*******************,6345,España,721-699-2751,vscullion1w@washington.edu
+70,PAULA,IBAÑEZ,RAMOS,Plaza de la Charca Verde,*******************,*******************,2978,España,140-623-9664,fmounter1x@hexun.com
+71,MIGUEL,IBAÑEZ,SANTANA,Paseo de la Maestra María Sánchez Arbós,*******************,*******************,20735,España,347-108-0463,rdrewet1y@ox.ac.uk
+72,PABLO,LOPEZ,HERRERO,Calle de Diego Torres Villarroel,*******************,*******************,21102,España,591-715-4063,eoels1z@zdnet.com
+73,MIGUEL,VAZQUEZ,FERRER,Avenida de la Memoria,*******************,*******************,23145,España,462-132-2536,csymmers20@cnbc.com
+74,ANTONIO,MARQUEZ,ESTEBAN,Calle Max Aub,*******************,*******************,42377,España,435-289-1589,iklaggeman21@toplist.cz
+75,JUAN,BENITEZ,BRAVO,Calle Pintora Ángeles Santos,*******************,*******************,44859,España,304-150-3459,chamilton22@theguardian.com
+76,ANTONIO,DOMINGUEZ,MORA,Calle Aviador Zorita,*******************,*******************,31410,España,214-551-4088,kricciardello23@ask.com
+77,MARIA JOSE,LORENZO,CORTES,Plaza Corpus Barga,*******************,*******************,29108,España,605-404-4517,gpooly24@sogou.com
+78,JOSE,MORALES,GARCIA,Plaza Corpus Barga,*******************,*******************,16913,España,180-891-0357,sloosley25@ovh.net
+79,DOLORES,SANCHEZ,SERRANO,Calle Arquitecto Sánchez Arcas,*******************,*******************,33120,España,891-393-3833,eselbach26@wikispaces.com
+80,MARIA LUISA,FERRER,ORTIZ,Paseo de la Maestra María Sánchez Arbós,*******************,*******************,11323,España,741-922-4167,lemmot27@cam.ac.uk
+81,RAFAEL,RAMIREZ,MENDEZ,Calle Julián Besteiro,*******************,*******************,47044,España,268-589-2076,hmcglue28@wiley.com
+82,JESUS,FERNANDEZ,GIMENEZ,Glorieta de Ramón Gaya,*******************,*******************,16777,España,720-229-4489,cscoggin29@bbb.org
+83,FRANCISCO,ALVAREZ,NIETO,Avenida de Las Águilas,*******************,*******************,42554,España,120-141-3596,ngrzelczak2a@imdb.com
+84,LUCIA,TORRES,NAVARRO,Calle del Maestro Ángel Llorca,*******************,*******************,10220,España,389-501-9736,lstrewther2b@odnoklassniki.ru
+85,RAFAEL,GUERRERO,CASTILLO,Calle de Melchor Rodríguez,*******************,*******************,2088,España,354-382-2966,pmashal2c@wikia.com
+86,MARIA DOLORES,RUIZ,GOMEZ,Plaza José Moreno Villa,*******************,*******************,6181,España,999-886-8838,ktaill2d@telegraph.co.uk
+87,ANA,VEGA,NAVARRO,Calle de la Poeta Ángela Figuera,*******************,*******************,44615,España,230-865-2501,lellaway2e@nih.gov
+88,JOSE MARIA,SANTIAGO,VICENTE,Calle de Melchor Rodríguez,*******************,*******************,37819,España,311-391-8328,jmcqueen2f@nifty.com
+89,RAQUEL,TORRES,MOYA,Calle Julián Besteiro,*******************,*******************,39383,España,762-336-2454,cweale2g@ucsd.edu
+90,ALEJANDRO,FERNANDEZ,MORALES,Plaza del Rastrillo,*******************,*******************,41988,España,533-489-0095,cgillbee2h@ocn.ne.jp
+91,MARIA ISABEL,HIDALGO,LOZANO,Glorieta de Ramón Gaya,*******************,*******************,27062,España,653-206-7782,plodevick2i@weather.com
+92,MIGUEL,CABRERA,FERNANDEZ,Calle José Rizal,*******************,*******************,44934,España,210-470-6940,htupling2j@qq.com
+93,JOSE MARIA,ORTIZ,MARTINEZ,Calle de la Poeta Ángela Figuera,*******************,*******************,13284,España,167-217-2863,eboatswain2k@barnesandnoble.com
+94,JAVIER,HERRERA,MOLINA,Calle Guillermo Rovirosa,*******************,*******************,22619,España,453-427-1193,krudloff2l@reddit.com
+95,ANTONIO,RAMIREZ,SANTIAGO,Calle Soledad Cazorla,*******************,*******************,10750,España,818-959-3457,sminelli2m@loc.gov
+96,MARIA ANGELES,HIDALGO,ARIAS,Calle del Barco Sinaia,*******************,*******************,11263,España,489-623-8888,rnavein2n@etsy.com
+97,JESUS,ROMERO,DOMINGUEZ,Calle Guillermo Rovirosa,*******************,*******************,23203,España,670-132-2051,pgianullo2o@usnews.com
+98,DAVID,MARQUEZ,RAMIREZ,Plaza de El Pardo,*******************,*******************,43658,España,670-712-9652,nghione2p@sitemeter.com
+99,JOSE MANUEL,CARMONA,HIDALGO,Calle Memorial 11 de marzo de 2004,*******************,*******************,3157,España,393-768-0984,mteresi2q@reuters.com
+100,FRANCISCO JAVIER,MUÑOZ,CANO,Calle San Germán,*******************,*******************,47346,España,743-705-8545,tgiorgi2r@unblog.fr

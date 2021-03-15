@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="css">
+        main{
+            display: flex;
+        }
+        fieldset {
+            width: 35%;
+            border: none;
+        }
+        .caja{
+            display: flex;
+            flex-direction: row;
+        }
+
+        div{
+            display: flex;
+        }
+    </style>
+
+</head>
+    <body>
+        <main>
+            <h2>Formulario de alta</h2> 
+            <form method="post" action="#"> 
+                <div class="caja">		
+                <fieldset>  
+                        <div>
+                                <br/> <label for="nombre">Nombre</label> 	<br/>	
+                                <input id="nombre" name="nombre" value="" /> <br/><br/>
+                                                 
+                                <label for="apellido1">Primer apellido</label> <br/>
+                                <input id="apellido1" name="apellido1" value="" /> <br/><br/>
+                              
+                                <label for="apellido2">Segundo apellido</label> <br/>
+                                <input id="apellido2" name="apellido2" value="" /> <br/><br/>
+                           
+                                <label for="email">Email</label> 	<br/>	
+                                <input id="email" name="email" value="" /> <br/><br/>
+                        </div> 
+                        <div>
+                                <label for="nombreUsuario">Nombre de usuario</label> 	<br/>	
+                                <input id="nombreUsuario" name="nombreUsuario" value="" /> <br/><br/>
+                                                      
+                                <label for="contraseña">Contraseña</label> <br/>
+                                <input type="password" id="contraseña" name="contraseña" value="" /> <br/><br/>
+                            
+                                <label for="repetirContraseña">Repetir Contraseña</label> <br/>
+                                <input type="password" id="repetirContraseña" name="repetirContraseña" value="" /> <br/><br/>
+
+                                <label for="sexo">Sexo</label> 	<br/>	
+                                <input type="radio" name="sexo" value="M">Masculino <br/>
+                                <input type="radio" name="sexo" value="F">Femenino <br/>
+                                <input type="radio" name="sexo" value="O">Otro <br/><br/>
+                            
+                                <label for="fechaDeNacimiento">Fecha de Nacimiento</label> <br/>
+                                <input type="date" name="fechaDeNacimiento" id="fechaDeNacimiento" min="1900-01-01" max="2021-03-01"> <br/><br/>
+                        </div>
+                        <div>
+                                Aficiones <br>
+                                <input type="checkbox" name="futbol" value="futbol"><label for = "futbol">Fútbol</label> <br>
+                                <input type="checkbox" name="baloncesto" value="baloncesto"><label for = "baloncesto">Baloncesto</label> <br>
+                                <input type="checkbox" name="tenis" value="tenis"><label for = "tenis">Tenis</label> <br>
+                                <input type="checkbox" name="series" value="series"><label for = "series">Ver series</label> <br>
+                                <input type="checkbox" name="musica" value="musica"><label for = "musica">Escuchar música</label> <br>
+                                <input type="checkbox" name="pescar" value="pescar"><label for = "pescar">Ir de pesca</label> <br>
+                                <input type="checkbox" name="nadar" value="nadar"><label for = "nadar">Nadar</label> <br>
+                                <input type="checkbox" name="bailar" value="bailar"><label for = "bailar">Bailar</label> <br>
+                                <input type="checkbox" name="cantar" value="cantar"><label for = "cantar">Cantar</label> <br>
+                                <input type="checkbox" name="ajedrez" value="ajedrez"><label for = "ajedrez">Jugar al ajedrez</label> <br>
+                                <input type="checkbox" name="cocinar" value="cocinar"><label for = "cocinar">Cocinar croquetas</label> <br>
+                                <input type="checkbox" name="videojuegos" value="videojuegos"><label for = "videojuegos">Jugar a videojuegos</label> <br><br>
+                                
+                                <input type="submit" name="enviar" src="../Boletin 6.2/imgs/91848.png" alt="Enviar" width="80px">
+                        
+                                <label for="enviar">Presiona para enviar una vez rellenado los campos</label>
+				                <input type="image" src="../Boletin 6.2/imgs/91848.png" value="submit" name="envio" style="width: 35% " >
+                        
+                            </div> 
+                </fieldset> 
+                </div>		
+            </form> 
+        </main>
+    </body>
+</html>

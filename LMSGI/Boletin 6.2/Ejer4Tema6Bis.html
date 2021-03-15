@@ -1,0 +1,257 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+	<title>Ejercicio 4 - Tema 6 bis -</title> 
+	<meta charset="utf-8" /> 
+	<style type="text/css"> 
+
+
+		main{
+			padding-left: 300px;
+		}
+
+
+		form{
+			display: flex;
+			align-content: flex-start;
+		}
+
+		.titulo{
+
+			font-weight: bold;
+		}
+
+		.ayuda{
+
+			display: none;
+		}
+		select {
+			position: absolute;
+		}
+
+		.email{
+			position: absolute;
+			top: 226px;
+			left: 308px;
+		}
+
+		.direcc{
+			display: flex;
+			flex-direction: column;
+			height: 141px;
+
+
+		}
+
+		.nombr{
+			height: 141px;
+		}
+
+		#muni{
+			
+			position: relative;
+			top: -39.75px;
+			left: 150px;
+		}
+
+
+		#provi{
+			position: relative;
+			display: flex;
+			top: -30px;
+			left: 0px;
+		}
+
+		#pa1{
+			position: relative;
+			display: flex;
+			top: -66.8px;
+			left: 150px;
+
+		}
+
+		
+
+		#tlf{
+			
+			position: relative;
+			width: 80px;
+			top: 0px;
+			left: 0px;
+			height: 70px;
+		}
+
+		#movil{
+			display: flex;
+			flex-direction: column;
+			width: 160px;
+			position: relative;
+			top:  -39.5px;
+			left: 150px;
+		}
+
+		#alta {
+			position: relative;
+			top: -5px;
+
+		}
+
+		
+
+		.alta{
+			
+			
+			position: relative;
+			top: 250px;
+			left: -117px;
+			height: 40px;
+			width: -10px;
+
+
+			
+		}
+
+		.requerido{
+			color: red;
+		}
+		
+
+		
+
+		
+
+		fieldset{
+
+
+			border:solid black 0px;
+			
+		}
+
+		
+		fieldset:hover{
+
+			background-color: rgb(255,255,153);
+
+
+		}
+
+
+		input:focus{
+			outline: none;
+			border: solid rgb(230, 183, 0) 3px;
+		}
+
+		hr{
+			position: relative;
+			top: -28px;
+			width: 540px;
+			left: -200px;
+			color: grey;
+		}
+		
+
+
+
+
+	</style> 
+</head> 
+<body> 
+	<main>
+		<h2>Formulario de alta</h2> 
+		<form method="post" action="#"> 
+			<section>		
+				<fieldset class="nombr"> 
+					<label class="titulo" for="nombre">Nombre y apellidos <span class="requerido">*</span></label> 
+					<div> 
+						<input id="nombre" name="nombre" value="" size="10" /> <br>
+						<label for="nombre">Nombre</label> <br>		
+
+						<input id="apellido1" name="apellido1" value="" /> <br>
+						<label for="apellido1">Primer apellido</label> <br>
+
+						<input id="apellido2" name="apellido2" value="" /> <br>
+						<label for="apellido2">Segundo apellido</label> <br>
+
+					</div> 
+					<p class="ayuda">No te olvides de escribir también tu segundo apellido</p>
+				</fieldset> 
+			</section>
+			<section>
+				<fieldset class="direcc">
+
+					<label class="titulo" for="direccion">Dirección <span class="requerido">*</span></label> 
+
+					<input id="direccion" name="direccion" value="" size="40" /> 
+					<label for="direccion">Calle, número, piso, puerta</label> 
+					<div id="cp">
+						<input id="codigopostal" name="codigopostal" value="" size="15" /> <br>
+						<label for="codigopostal">Código postal</label>
+					</div>
+					<div id="muni">
+						<input id="municipio" name="municipio" value="" size="15" />
+						<label for="municipio"><br>Municipio</label> 
+					</div>
+					<div id="provi">
+						<select id="provincia" name="provincia" style="width: 137px;">
+							<option value="" ></option> 
+							<option value="provincia1" >Provincia 1</option> 
+							<option value="provincia2">Provincia 2</option> 
+							<option value="provincia3">Provincia 3</option> 
+						</select> 
+						<label for="provincia"><br>Provincia</label> 
+					</div>
+					<div id="pa1">
+						<select id="pais" name="pais" style="width: 120px;"> 
+							<option value=""></option> 
+							<option value="pais1">País 1</option> 
+							<option value="pais2">País 2</option> 
+							<option value="pais3">País 3</option> 
+						</select> 
+
+
+						<label for="pais"><br>País</label> 	<br>	
+
+					</div> 
+					<p class="ayuda">El código postal es imprescindible para poder recibir los pedidos</p> <br>
+				</fieldset> 
+				<fieldset class="email"> 
+					<label class="titulo" for="email">Email<br></label> 
+					
+					<input id="email" name="email" value="" /> 
+					
+					<p class="ayuda">Asegúrate de que sea váfieldsetdo</p> 
+				</fieldset> 
+
+
+				<fieldset class="telef"> 
+					<div id="tlf"> 
+						<label class="titulo" for="telefonofijo">Teléfono <span class="requerido">*</span></label> 
+
+						<input id="telefonofijo" name="telefonofijo" value=""  size="15" /> 
+						<label for="telefonofijo">Fijo</label> 
+						<div id="movil">
+							<input id="telefonomovil" name="telefonomovil" value="" size="15" /> 
+							<label for="telefonomovil">Móvil</label> 	
+
+						</div>		
+
+					</div> 
+					<p class="ayuda">Sin prefijo de país y sin espacios en blanco</p> 
+
+
+				</fieldset> 
+				
+			</section>
+
+
+			<fieldset class="alta">
+
+				<input id="alta" type="submit" value="Darme de alta &rarr;"  size="15" /> 
+			</fieldset> 
+
+		</form> 
+
+		<hr>
+	</main>
+</body> 
+</html>

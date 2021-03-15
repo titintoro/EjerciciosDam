@@ -1,6 +1,6 @@
 package prueba01;
 
-public class Alumno implements  IEstudiable, Comparable <Alumno>{
+public class Alumno implements Comparable <Alumno>{
 
 	private String nombre;
 	private int edad;

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 04</title>
+    <style>
+        main {
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            flex-direction: column;
+        }
+
+        .caja{
+            display: flex;
+            flex-direction: row;
+        }
+        h2 {
+            font-weight: lighter;
+            font-size: 25pt;
+        }
+
+        fieldset {
+            width: 35%;
+            border: none;
+        }
+        fieldset:hover{
+            background-color: #FF9;
+            width: 35%;
+        }
+        .titulo {
+            font-weight: bold;
+        }
+        .requerido {
+            font-weight: bold;
+            color: red;
+            font-size: 15pt;
+        }
+        .tam {
+            width: 200%;
+            
+        }
+        #fondo {
+            margin-left: 750px;
+        }
+        input:hover{
+            border: #E6B700 solid 2px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="">
+            <h2>Formularios de alta</h2>
+        <div class="caja">
+        <fieldset> 
+            <label class="titulo" for="nombre">Nombre y apellidos <span class="requerido">*</span></label>  <br>
+                <div>
+                    <input type="text" name="nombre" id="nombre" required placeholder="Su nombre"> <br>
+                    <label for="nombre">Nombre</label> <br> <br> 
+                    <input type="text" name="primerapellido" id="primerapellido"  placeholder="Su primer apellido" required> <br> 
+                    <label for="primerapellido">Primer Apellido</label> <br> <br> 
+                    <input type="text" name="segundoapellido" id="segundoapellido" placeholder="Su segundo apellido" required> <br>
+                    <label for="segundoapellido">Primer Apellido</label> <br>
+                </div>
+        </fieldset>
+        <fieldset>
+                <label class="titulo" for="direccion">Dirección <span class="requerido">*</span></label>  <br>
+                <div class="tam">
+                    <input type="text" name="calle" id="calle" size="54" required> <br>
+                    <label for="calle">Calle, número, piso, puerta</label> <br> <br>
+                    <input type="text" name="codigo" id="codigo" size="7" required>
+                    <label for="codigo">Código postal</label> 
+                    <input type="text" name="municipio" id="municipio" required>
+                    <label for="municipio">Municipio</label> <br> <br>
+                    
+                    <select id="provincia" name="provincia" > 
+                        <option value="se" selected>Sevilla</option>
+                        <option value="ca">Cádiz</option>
+                        <option value="hu">Huelva</option>
+                        <option value="gr">Granada</option>
+                        <option value="al">Almería</option>
+                        <option value="co">Córdoba</option>
+                        <option value="ma">Málaga</option>
+                        <option value="ja">Jaén</option>
+                    </select> 
+
+                    <select id="pais" name="pais">
+                        <option value="España" selected>España</option>
+                        <option value="mexico">México</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="EUA">Estados Unidos</option>
+                        <option value="inglaterra">Inglaterra</option>
+                    </select>
+                </div>
+        </fieldset>
+       
+            <div class="caja">
+            <fieldset>
+                <label class="titulo" for="email">Email</label> <br> 
+                <div>
+                    <input type="email" name="email" id="email"> <br>
+                    <label for="email">Su email</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <label class="titulo" for="telefono">Teléfono <span class="requerido">*</span></label> <br>
+                <div class="tam">
+                    <input type="text" name="fijo" id="fijo" required> 
+                    <label for="fijo">Fijo</label>
+                    <input type="text" name="movil" id="movil" required>
+                    <label for="movil">Móvil</label>
+                </div>
+            </fieldset>
+            
+        </div>
+        <hr>
+        <fieldset> 
+            <div id="fondo">
+			<input id="alta" type="submit" value="Darme de alta &rarr;" /> 
+            </div>
+		</fieldset>
+        </form>
+    </main>
+</body>
+</html>

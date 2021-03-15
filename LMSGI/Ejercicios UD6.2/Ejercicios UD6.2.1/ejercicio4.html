@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css"> 
+
+label{
+    border-width: 10 px;
+    border-color: green;
+}
+
+    fieldset {
+      
+    background-color: #FF9 ;        
+    }
+    fieldset:hover{
+        background-color: blue;
+    }
+    label :hover{
+        border-color: red;
+    }
+	</style> 
+</head>
+<body>
+    <form method="post" action="#"> 		
+		<fieldset> 
+			<label class="titulo" for="nombre">Nombre y apellidos <span class="requerido">*</span></label> 
+			<div> 
+				<input id="nombre" name="nombre" value="" /> 
+				<label for="nombre">Nombre</label> 		
+			
+				<input id="apellido1" name="apellido1" value="" /> 
+				<label for="apellido1">Primer apellido</label> 
+			
+				<input id="apellido2" name="apellido2" value="" /> 
+				<label for="apellido2">Segundo apellido</label> 
+				
+			</div> 
+			
+		</fieldset> 
+</body>
+</html>
